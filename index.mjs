@@ -14,7 +14,7 @@ import {
   verdict,
   workURL,
   z,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 
 const locator = { project: text.optional(), iid: positiveID.optional() };
 
